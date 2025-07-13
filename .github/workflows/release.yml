@@ -19,7 +19,7 @@ jobs:
       - name: 🛠️ Install dependencies
         run: |
           sudo apt update
-          sudo apt install -y cmake g++ libyaml-cpp-dev tar
+          sudo apt install -y cmake g++ tar
 
       - name: 🏗️ Configure and build with CMake
         run: |
