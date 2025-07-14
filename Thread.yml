@@ -12,4 +12,4 @@ source:
 
 install:
   commands: |
-    sudo ln -sf /opt/bitpuppy/Chocolaterie/moodberry/bin/moodberry /usr/bin/moodberry
+    sudo ln -sf $ROOT/opt/bitpuppy/Chocolaterie/moodberry/bin/moodberry $ROOT/usr/bin/moodberry
